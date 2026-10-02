@@ -1,6 +1,6 @@
 ## Distributed Inferencing on AWS — `iii` Quickstart
 
-This is my devops internship assignment for Alchemyst AI. I took the
+I took the
 `iii` quickstart and split the workers across two EC2s, then exposed a JSON
 HTTP API through an ALB. It is not a huge system, but it shows the full
 chain working: HTTP -> RPC -> inference -> back to HTTP.
